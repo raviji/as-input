@@ -1,0 +1,66 @@
+:host /deep/ .input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 0em;
+    max-width: 350px;
+    width: calc(100% - 2em);
+    vertical-align: top;
+}
+
+:host /deep/ .asi {
+    position: relative;
+    display: block;
+    font-size: 1.3rem;
+    float: left;
+    padding: 0.9em 0em;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: #333;
+    font-weight: 400;
+    font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-appearance: none;
+    /* for box shadows to show on iOS */
+}
+
+:host /deep/ .asi:focus {
+    outline: none;
+}
+
+:host /deep/ .asi-lbl {
+    display: inline-block;
+    padding: 0 1em;
+    width: 40%;
+    color: #696969;
+    font-weight: bold;
+    font-size: 70.25%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+:host /deep/ .asi-lbl-cnt {
+    position: relative;
+    display: block;
+    padding: 1.6em 0;
+    width: 100%;
+}
+
+:host /deep/ .graphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+}
+
+:host /deep/ .icon {
+    color: #ddd;
+    font-size: 150%;
+}
