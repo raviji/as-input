@@ -18,7 +18,7 @@ export class AsInputComponent implements AfterContentInit {
   ngAfterContentInit() {
     // $('.input-focus').find('.input--nao').addClass('input--filled');
     if (!this.input) {
-        console.error('the as-input needs an input inside its content');
+        // console.error('the as-input needs an input inside its content');
     }
 }
 
